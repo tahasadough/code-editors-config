@@ -1,0 +1,15 @@
+[
+  {
+    "context": "Editor && vim_mode == insert && !menu",
+    "bindings": {
+      "j k": "vim::NormalBefore"
+    }
+  },
+  {
+    "context": "Editor && !menu",
+    "bindings": {
+      "space e": "workspace::ToggleRightDock",
+      "space f": "file_finder::Toggle"
+    }
+  }
+]

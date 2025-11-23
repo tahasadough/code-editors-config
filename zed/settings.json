@@ -1,0 +1,39 @@
+{
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "vim_mode": true,
+  "relative_line_numbers": "enabled",
+  "project_panel": {
+    "dock": "right",
+    "auto_reveal_entries": false,
+    "auto_fold_dirs": false
+  },
+  "tab_bar": {
+    "show": false,
+    "show_tab_bar_buttons": false
+  },
+  "minimap": {
+    "show": "never"
+  },
+  "cursor_blink": true,
+  "buffer_font_fallbacks": ["Consolas", "Courier New", "monospace"],
+  "buffer_font_family": "JetBrains Mono",
+  "file_types": {
+    "dotenv": [".env*"],
+    "javascript": ["*.dbclient-js"],
+    "jsonl": ["*.ndjson"],
+    "sql": ["*.sqlbook"]
+  },
+  "auto_indent_on_paste": true,
+  "linked_edits": true,
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "buffer_font_size": 16.0,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Tokyo Night"
+  }
+}
