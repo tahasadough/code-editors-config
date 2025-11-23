@@ -6,7 +6,7 @@
     }
   },
   {
-    "context": "Editor && !menu",
+    "context": "Editor && vim_mode == normal && !menu",
     "bindings": {
       "space e": "workspace::ToggleRightDock",
       "space f": "file_finder::Toggle"
