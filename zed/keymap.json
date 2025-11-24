@@ -1,12 +1,12 @@
 [
   {
-    "context": "Editor && vim_mode == insert && !menu",
+    "context": "Editor && vim_mode == insert",
     "bindings": {
       "j k": "vim::NormalBefore"
     }
   },
   {
-    "context": "Editor && vim_mode == normal && !menu",
+    "context": "Editor && vim_mode == normal",
     "bindings": {
       "space e": "workspace::ToggleRightDock",
       "space f": "file_finder::Toggle"
