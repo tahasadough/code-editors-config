@@ -17,6 +17,9 @@
   "minimap": {
     "show": "never"
   },
+  "edit_predictions": {
+    "mode": "subtle"
+  },
   "cursor_blink": true,
   "buffer_font_fallbacks": ["Consolas", "Courier New", "monospace"],
   "buffer_font_family": "JetBrains Mono",
