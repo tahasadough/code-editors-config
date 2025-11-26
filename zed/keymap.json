@@ -11,5 +11,11 @@
       "space e": "workspace::ToggleRightDock",
       "space f": "file_finder::Toggle"
     }
+  },
+  {
+    "context": "Editor && vim_mode == visual",
+    "bindings": {
+      "shift-s": "vim::PushAddSurrounds"
+    }
   }
 ]
