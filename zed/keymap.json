@@ -17,5 +17,12 @@
     "bindings": {
       "shift-s": "vim::PushAddSurrounds"
     }
+  },
+  {
+    "context": "Editor && vim_mode == insert && (showing_completions || showing_code_actions)",
+    "bindings": {
+      "ctrl-k": "editor::ContextMenuPrevious",
+      "ctrl-j": "editor::ContextMenuNext"
+    }
   }
 ]
