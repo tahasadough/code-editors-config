@@ -55,7 +55,7 @@
   "editor.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
   "editor.fontWeight": "400",
   "editor.fontLigatures": true,
@@ -106,10 +106,6 @@
   "vim.smartRelativeLine": true,
   "vim.leader": " ",
   "vim.insertModeKeyBindings": [{ "before": ["j", "k"], "after": ["<esc>"] }],
-  "vim.normalModeKeyBindings": [
-    { "before": ["<leader>", "e"], "commands": ["workbench.view.explorer"] },
-    { "before": ["<leader>", "f"], "commands": ["workbench.action.quickOpen"] }
-  ],
   "vim.useSystemClipboard": true,
   "remote.defaultExtensionsIfInstalledLocally": [
     "GitHub.copilot",

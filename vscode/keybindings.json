@@ -1,0 +1,44 @@
+[
+  {
+    "key": "space e",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
+  },
+  {
+    "key": "space f",
+    "command": "workbench.action.quickOpen",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
+  },
+
+  {
+    "key": "ctrl+k",
+    "command": "selectPrevSuggestion",
+    "when": "editorTextFocus && suggestWidgetVisible && vim.mode == 'Insert'"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "selectNextSuggestion",
+    "when": "editorTextFocus && suggestWidgetVisible && vim.mode == 'Insert'"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "selectPrevSuggestion",
+    "when": "editorTextFocus && suggestWidgetVisible && vim.mode != 'Insert'"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "selectNextSuggestion",
+    "when": "editorTextFocus && suggestWidgetVisible && vim.mode != 'Insert'"
+  },
+
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.quickOpenNavigateNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.quickOpenNavigatePrevious",
+    "when": "inQuickOpen"
+  }
+]
