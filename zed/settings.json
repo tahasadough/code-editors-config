@@ -1,4 +1,19 @@
 {
+  "indent_guides": {
+    "coloring": "fixed"
+  },
+  "icon_theme": "Bearded Icon Theme",
+  "inlay_hints": {
+    "show_background": false,
+    "show_type_hints": false,
+    "show_value_hints": true,
+    "enabled": true
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  },
   "telemetry": {
     "diagnostics": false,
     "metrics": false
